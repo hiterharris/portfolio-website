@@ -1,6 +1,28 @@
 @charset "UTF-8";
 @import 'fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+.desktop-image {
+  width: 100%;
+}
+
+.wrapper a {
+  border-bottom: none;
+}
+.wrapper .content p {
+  font-size: 24px;
+}
+.wrapper .content .major {
+  font-size: 32px;
+}
+
+.style1 .inner {
+  margin-left: 30% !important;
+}
+
+.style2 .inner {
+  margin-right: 30% !important;
+}
+
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
