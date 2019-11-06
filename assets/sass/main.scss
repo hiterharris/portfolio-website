@@ -19,17 +19,36 @@
 	}
 }
 
-.style1 .inner {
-	margin-left: 30% !important;
+.style1 {
+	padding-left: 30%;
 }
 
-.style2 .inner {
-	margin-right: 30% !important;
+.style2 {
+	padding-right: 30%;
 }
 
+@media(max-width: 1280px) {
+	.inner {
+		display: flex;
+    	flex-wrap: wrap;
+	}
+	.style1 {
+		padding-left: 0%;
+	}
+	
+	.style2 {
+		padding-right: 0%;
+	}
+}
 
+@media(max-width: 940px) {
+	.desktop-image {
+		width: 70%;
+	}
+	.inner {
 
-
+	}
+}
 
 @import 'libs/vars';
 @import 'libs/functions';
